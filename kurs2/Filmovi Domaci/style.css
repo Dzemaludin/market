@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.allSyte{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(43, 8, 8);
+}
+header{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 55px;
+    width: 335px;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+.mainPart{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+.carts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 88vw;
+    height: 350px;
+    background-color: aqua;
+    margin-top: 30px;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 22%;
+    height: 93%;
+    background-color: yellow;
+}
+.buton button{
+    position: relative;
+    top: 40px;
+    background-color: rgb(97, 87, 75);
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.cart p {
+    overflow-wrap: anywhere;
+}
+.cena p{
+    background-color: aquamarine;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
